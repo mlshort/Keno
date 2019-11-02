@@ -46,7 +46,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <CodeAnalysisRuleSet>..\..\..\..\..\..\..\..\..\..\My_NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\..\..\..\MyNativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <OutDir>$(SolutionDir)Bin\</OutDir>
     <TargetName>$(ProjectName)D</TargetName>
     <IntDir>$(SolutionDir)Obj\$(ProjectName)\$(Platform)_$(Configuration)\</IntDir>

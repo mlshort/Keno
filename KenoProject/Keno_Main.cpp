@@ -94,6 +94,9 @@ double g_rgExpectedValue[g_MAX_SPOTS_MARKED] = { 0.0 };
   @param [in] wN       value used for factorial operation
 
   @retval QWORD         containing computed results
+
+  @note the return result can get very big and possibly overflow, 
+        there are not checks for this
 */
 QWORD calcFactorial (WORD wN)
 {
@@ -129,7 +132,7 @@ double calcPartialFactorial (WORD wN, WORD wNumTerms)
 
     double fResult = 1.0;
 
-    for ( int i = 0; i < wNumTerms; i++ )
+    for ( WORD i = 0; i < wNumTerms; i++ )
     {
         fResult = fResult * (wN - i);
     }
@@ -169,10 +172,10 @@ DWORD calcCombinations (DWORD dwN, DWORD dwR)
 
     if ( dwR <= dwN )
     {
-        QWORD qwNFactorial   = calcFactorial ( static_cast<WORD>(dwN) );
-        QWORD qwRFactorial   = calcFactorial ( static_cast<WORD>(dwR) );
+        const QWORD qwNFactorial   = calcFactorial ( static_cast<WORD>(dwN) );
+        const QWORD qwRFactorial   = calcFactorial ( static_cast<WORD>(dwR) );
 
-        QWORD qwDifFactorial = calcFactorial ( static_cast<WORD>(dwN - dwR) );
+        const QWORD qwDifFactorial = calcFactorial ( static_cast<WORD>(dwN - dwR) );
 
         dwResult = static_cast<DWORD>(qwNFactorial / (qwRFactorial * qwDifFactorial));
     }
@@ -208,10 +211,10 @@ double  calcKenoProbability ( DWORD dwNumMarked, DWORD dwCaught )
 
     double fResult = 0.0;
 
-    DWORD dwNumCombinations = calcCombinations (dwNumMarked, dwCaught);
-    double qwP1 = calcPartialFactorial ( static_cast<WORD>(g_MAX_SELECTABLE_BALLS), static_cast<WORD>(dwCaught) );
-    double qwP2 = calcPartialFactorial ( static_cast<WORD>(g_TOTAL_BALLS - g_MAX_SELECTABLE_BALLS), static_cast<WORD>(dwNumMarked - dwCaught) );
-    double qwP3 = calcPartialFactorial ( static_cast<WORD>(g_TOTAL_BALLS), static_cast<WORD>(dwNumMarked) );
+    const DWORD dwNumCombinations = calcCombinations (dwNumMarked, dwCaught);
+    const double qwP1 = calcPartialFactorial ( static_cast<WORD>(g_MAX_SELECTABLE_BALLS), static_cast<WORD>(dwCaught) );
+    const double qwP2 = calcPartialFactorial ( static_cast<WORD>(g_TOTAL_BALLS - g_MAX_SELECTABLE_BALLS), static_cast<WORD>(dwNumMarked - dwCaught) );
+    const double qwP3 = calcPartialFactorial ( static_cast<WORD>(g_TOTAL_BALLS), static_cast<WORD>(dwNumMarked) );
 
 // the actual formula given was C(N, R) * P1 * P2 / P3
     fResult = static_cast<double>(dwNumCombinations) * qwP1 * qwP2 / qwP3;
@@ -251,7 +254,8 @@ double  calcKenoProbability ( DWORD dwNumMarked, DWORD dwCaught )
     rename("CopyFile", "ExcelCopyFile") \
     rename("ReplaceText", "ExcelReplaceText") \
     inject_statement("struct _VBProjectPtr;") \
-    inject_statement("struct VBEPtr;")
+    inject_statement("struct VBEPtr;") \
+    no_auto_exclude
 
 
 #pragma endregion import_block
@@ -428,7 +432,7 @@ int ExportDataToExcel(void)
 
     Excel::_WorksheetPtr pSheet = pXL->ActiveSheet;
 
-    size_t nLen = _tcslen(szDir);
+    const size_t nLen = _tcslen(szDir);
     // check for errors and to make sure we have room to concatenate
     if ( (nLen != 0) && (nLen + _countof(g_szFileName) < _MAX_PATH) ) 
     {        
@@ -471,7 +475,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
     for ( int i = 0; i < g_MAX_ROWS; i++ )      // i + 1 = '(number of spots 'marked')'
     {
-        int iNumSpotsMarked = i + 1;  // this is for readability
+        const int iNumSpotsMarked = i + 1;  // this is for readability
         for ( int j = 0; j < g_MAX_COLS; j++ )  // j = balls caught 
         {
             if ( iNumSpotsMarked >= j )
@@ -538,7 +542,7 @@ int _tmain(int argc, _TCHAR* argv[])
             if ( dPayout > 0 )
             {
                 // lets lookup the associated probability -  KP(M, C)
-                double dKenoProb     = g_rgProbability[i][j+1];
+                const double dKenoProb     = g_rgProbability[i][j+1];
 
                 g_rgExpectedValue[i] += (dKenoProb * dPayout / (i+2));   // we have to divide by i+2 here because we need to 
                                                                          // account for i is zero-based and we need to account
@@ -557,7 +561,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
     // Initialize the COM libraries needed to interface with Excel
-    HRESULT hr = ::CoInitializeEx (0, COINIT_MULTITHREADED);
+    HRESULT hr = ::CoInitializeEx (nullptr, COINIT_MULTITHREADED);
 
     if ( FAILED (hr) )
     {

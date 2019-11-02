@@ -25,7 +25,7 @@ int DebugTrace (const TCHAR* szFmt, ...)
     va_start (vaArgs, szFmt);
 
     // use the format string and arguments to construct the debug output string
-    int iReturnVal = _vsntprintf (szDebugMsg, _countof (szDebugMsg) - 1, szFmt, vaArgs);
+    const int iReturnVal = _vsntprintf (szDebugMsg, _countof (szDebugMsg) - 1, szFmt, vaArgs);
     va_end (vaArgs);
 
     ::OutputDebugString (szDebugMsg);
@@ -40,11 +40,11 @@ TCHAR* GetModulePath (TCHAR* szModulePath, size_t cchLen)
 
     // Note, if HANDLE is NULL, GetModuleFileName is supposed to return the file path to the current executable,
     // but it appears that it is inconsistently returning filename as well....
-    DWORD dwStrLen = ::GetModuleFileName (NULL, szModuleFileName, _countof(szModuleFileName) );
+    const DWORD dwStrLen = ::GetModuleFileName (nullptr, szModuleFileName, _countof(szModuleFileName) );
 
     TCHAR szDir[_MAX_PATH] = {0};
 
-    _tsplitpath(szModuleFileName, szDir, &szDir[2], NULL, NULL);
+    _tsplitpath(szModuleFileName, szDir, &szDir[2], nullptr, nullptr);
 
     return _tcsncpy(szModulePath, szDir, cchLen);
 }
