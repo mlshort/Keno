@@ -1,0 +1,315 @@
+Calculating Keno Probabilites Value(s)
+---------------------------------------------
+Calculating probability of a catch of [0] balls out of [1] 'marked' numbers = 0.75
+Calculating probability of a catch of [1] balls out of [1] 'marked' numbers = 0.25
+Calculating probability of a catch of [0] balls out of [2] 'marked' numbers = 0.5601265823
+Calculating probability of a catch of [1] balls out of [2] 'marked' numbers = 0.3797468354
+Calculating probability of a catch of [2] balls out of [2] 'marked' numbers = 0.06012658228
+Calculating probability of a catch of [0] balls out of [3] 'marked' numbers = 0.4165043817
+Calculating probability of a catch of [1] balls out of [3] 'marked' numbers = 0.4308666018
+Calculating probability of a catch of [2] balls out of [3] 'marked' numbers = 0.1387536514
+Calculating probability of a catch of [3] balls out of [3] 'marked' numbers = 0.01387536514
+Calculating probability of a catch of [0] balls out of [4] 'marked' numbers = 0.3083214254
+Calculating probability of a catch of [1] balls out of [4] 'marked' numbers = 0.4327318251
+Calculating probability of a catch of [2] balls out of [4] 'marked' numbers = 0.2126354658
+Calculating probability of a catch of [3] balls out of [4] 'marked' numbers = 0.04324789135
+Calculating probability of a catch of [4] balls out of [4] 'marked' numbers = 0.003063392304
+Calculating probability of a catch of [0] balls out of [5] 'marked' numbers = 0.2271842082
+Calculating probability of a catch of [1] balls out of [5] 'marked' numbers = 0.4056860861
+Calculating probability of a catch of [2] balls out of [5] 'marked' numbers = 0.2704573907
+Calculating probability of a catch of [3] balls out of [5] 'marked' numbers = 0.08393505229
+Calculating probability of a catch of [4] balls out of [5] 'marked' numbers = 0.01209233804
+Calculating probability of a catch of [5] balls out of [5] 'marked' numbers = 0.0006449246956
+Calculating probability of a catch of [0] balls out of [6] 'marked' numbers = 0.1666017527
+Calculating probability of a catch of [1] balls out of [6] 'marked' numbers = 0.3634947331
+Calculating probability of a catch of [2] balls out of [6] 'marked' numbers = 0.3083214254
+Calculating probability of a catch of [3] balls out of [6] 'marked' numbers = 0.1298195475
+Calculating probability of a catch of [4] balls out of [6] 'marked' numbers = 0.02853791778
+Calculating probability of a catch of [5] balls out of [6] 'marked' numbers = 0.003095638539
+Calculating probability of a catch of [6] balls out of [6] 'marked' numbers = 0.0001289849391
+Calculating probability of a catch of [0] balls out of [7] 'marked' numbers = 0.121574252
+Calculating probability of a catch of [1] balls out of [7] 'marked' numbers = 0.3151925051
+Calculating probability of a catch of [2] balls out of [7] 'marked' numbers = 0.3266540507
+Calculating probability of a catch of [3] balls out of [7] 'marked' numbers = 0.1749932414
+Calculating probability of a catch of [4] balls out of [7] 'marked' numbers = 0.05219096675
+Calculating probability of a catch of [5] balls out of [7] 'marked' numbers = 0.008638504841
+Calculating probability of a catch of [6] balls out of [7] 'marked' numbers = 0.0007320766814
+Calculating probability of a catch of [7] balls out of [7] 'marked' numbers = 2.440255605e-05
+Calculating probability of a catch of [0] balls out of [8] 'marked' numbers = 0.08826623772
+Calculating probability of a catch of [1] balls out of [8] 'marked' numbers = 0.2664641139
+Calculating probability of a catch of [2] balls out of [8] 'marked' numbers = 0.3281456217
+Calculating probability of a catch of [3] balls out of [8] 'marked' numbers = 0.2147862251
+Calculating probability of a catch of [4] balls out of [8] 'marked' numbers = 0.0815037015
+Calculating probability of a catch of [5] balls out of [8] 'marked' numbers = 0.0183025856
+Calculating probability of a catch of [6] balls out of [8] 'marked' numbers = 0.002366713655
+Calculating probability of a catch of [7] balls out of [8] 'marked' numbers = 0.0001604551631
+Calculating probability of a catch of [8] balls out of [8] 'marked' numbers = 4.345660666e-06
+Calculating probability of a catch of [0] balls out of [9] 'marked' numbers = 0.06374783835
+Calculating probability of a catch of [1] balls out of [9] 'marked' numbers = 0.2206655943
+Calculating probability of a catch of [2] balls out of [9] 'marked' numbers = 0.3164261352
+Calculating probability of a catch of [3] balls out of [9] 'marked' numbers = 0.2461092163
+Calculating probability of a catch of [4] balls out of [9] 'marked' numbers = 0.1141051821
+Calculating probability of a catch of [5] balls out of [9] 'marked' numbers = 0.0326014806
+Calculating probability of a catch of [6] balls out of [9] 'marked' numbers = 0.005719558
+Calculating probability of a catch of [7] balls out of [9] 'marked' numbers = 0.0005916784138
+Calculating probability of a catch of [8] balls out of [9] 'marked' numbers = 3.2592455e-05
+Calculating probability of a catch of [9] balls out of [9] 'marked' numbers = 7.242767777e-07
+Calculating probability of a catch of [0] balls out of [10] 'marked' numbers = 0.04579070079
+Calculating probability of a catch of [1] balls out of [10] 'marked' numbers = 0.1795713756
+Calculating probability of a catch of [2] balls out of [10] 'marked' numbers = 0.2952567811
+Calculating probability of a catch of [3] balls out of [10] 'marked' numbers = 0.2674023678
+Calculating probability of a catch of [4] balls out of [10] 'marked' numbers = 0.1473188971
+Calculating probability of a catch of [5] balls out of [10] 'marked' numbers = 0.05142768771
+Calculating probability of a catch of [6] balls out of [10] 'marked' numbers = 0.01147939458
+Calculating probability of a catch of [7] balls out of [10] 'marked' numbers = 0.001611143099
+Calculating probability of a catch of [8] balls out of [10] 'marked' numbers = 0.0001354193553
+Calculating probability of a catch of [9] balls out of [10] 'marked' numbers = 6.120648825e-06
+Calculating probability of a catch of [10] balls out of [10] 'marked' numbers = 1.122118951e-07
+Calculating probability of a catch of [0] balls out of [11] 'marked' numbers = 0.03270764342
+Calculating probability of a catch of [1] balls out of [11] 'marked' numbers = 0.1439136311
+Calculating probability of a catch of [2] balls out of [11] 'marked' numbers = 0.2680744108
+Calculating probability of a catch of [3] balls out of [11] 'marked' numbers = 0.278384965
+Calculating probability of a catch of [4] balls out of [11] 'marked' numbers = 0.1785865813
+Calculating probability of a catch of [5] balls out of [11] 'marked' numbers = 0.07408035967
+Calculating probability of a catch of [6] balls out of [11] 'marked' numbers = 0.02020373446
+Calculating probability of a catch of [7] balls out of [11] 'marked' numbers = 0.003607809724
+Calculating probability of a catch of [8] balls out of [11] 'marked' numbers = 0.0004114168984
+Calculating probability of a catch of [9] balls out of [11] 'marked' numbers = 2.83735792e-05
+Calculating probability of a catch of [10] balls out of [11] 'marked' numbers = 1.057997868e-06
+Calculating probability of a catch of [11] balls out of [11] 'marked' numbers = 1.603027073e-08
+Calculating probability of a catch of [0] balls out of [12] 'marked' numbers = 0.02322716707
+Calculating probability of a catch of [1] balls out of [12] 'marked' numbers = 0.1137657162
+Calculating probability of a catch of [2] balls out of [12] 'marked' numbers = 0.237770347
+Calculating probability of a catch of [3] balls out of [12] 'marked' numbers = 0.2797298199
+Calculating probability of a catch of [4] balls out of [12] 'marked' numbers = 0.2057628002
+Calculating probability of a catch of [5] balls out of [12] 'marked' numbers = 0.09938731484
+Calculating probability of a catch of [6] balls out of [12] 'marked' numbers = 0.03220885203
+Calculating probability of a catch of [7] balls out of [12] 'marked' numbers = 0.007027385898
+Calculating probability of a catch of [8] balls out of [12] 'marked' numbers = 0.0010195984
+Calculating probability of a catch of [9] balls out of [12] 'marked' numbers = 9.540101991e-05
+Calculating probability of a catch of [10] balls out of [12] 'marked' numbers = 5.427989064e-06
+Calculating probability of a catch of [11] balls out of [12] 'marked' numbers = 1.672723903e-07
+Calculating probability of a catch of [12] balls out of [12] 'marked' numbers = 2.090904878e-09
+Calculating probability of a catch of [0] balls out of [13] 'marked' numbers = 0.01639564734
+Calculating probability of a catch of [1] balls out of [13] 'marked' numbers = 0.08880975643
+Calculating probability of a catch of [2] balls out of [13] 'marked' numbers = 0.206618617
+Calculating probability of a catch of [3] balls out of [13] 'marked' numbers = 0.2727365744
+Calculating probability of a catch of [4] balls out of [13] 'marked' numbers = 0.2272804787
+Calculating probability of a catch of [5] balls out of [13] 'marked' numbers = 0.125878419
+Calculating probability of a catch of [6] balls out of [13] 'marked' numbers = 0.04750129018
+Calculating probability of a catch of [7] balls out of [13] 'marked' numbers = 0.01231514931
+Calculating probability of a catch of [8] balls out of [13] 'marked' numbers = 0.002183140104
+Calculating probability of a catch of [9] balls out of [13] 'marked' numbers = 0.0002598976315
+Calculating probability of a catch of [10] balls out of [13] 'marked' numbers = 2.006227331e-05
+Calculating probability of a catch of [11] balls out of [13] 'marked' numbers = 9.433670833e-07
+Calculating probability of a catch of [12] balls out of [13] 'marked' numbers = 2.39839089e-08
+Calculating probability of a catch of [13] balls out of [13] 'marked' numbers = 2.459888092e-10
+Calculating probability of a catch of [0] balls out of [14] 'marked' numbers = 0.01150142425
+Calculating probability of a catch of [1] balls out of [14] 'marked' numbers = 0.06851912322
+Calculating probability of a catch of [2] balls out of [14] 'marked' numbers = 0.1762939941
+Calculating probability of a catch of [3] balls out of [14] 'marked' numbers = 0.2590442362
+Calculating probability of a catch of [4] balls out of [14] 'marked' numbers = 0.2422063609
+Calculating probability of a catch of [5] balls out of [14] 'marked' numbers = 0.1519726186
+Calculating probability of a catch of [6] balls out of [14] 'marked' numbers = 0.06575738305
+Calculating probability of a catch of [7] balls out of [14] 'marked' numbers = 0.01985128545
+Calculating probability of a catch of [8] balls out of [14] 'marked' numbers = 0.004181636518
+Calculating probability of a catch of [9] balls out of [14] 'marked' numbers = 0.000608238039
+Calculating probability of a catch of [10] balls out of [14] 'marked' numbers = 5.973766454e-05
+Calculating probability of a catch of [11] balls out of [14] 'marked' numbers = 3.811015282e-06
+Calculating probability of a catch of [12] balls out of [14] 'marked' numbers = 1.478411101e-07
+Calculating probability of a catch of [13] balls out of [14] 'marked' numbers = 3.084038802e-09
+Calculating probability of a catch of [14] balls out of [14] 'marked' numbers = 2.570032335e-11
+Calculating probability of a catch of [0] balls out of [15] 'marked' numbers = 0.008016144177
+Calculating probability of a catch of [1] balls out of [15] 'marked' numbers = 0.05227920116
+Calculating probability of a catch of [2] balls out of [15] 'marked' numbers = 0.147939016
+Calculating probability of a catch of [3] balls out of [15] 'marked' numbers = 0.2404009011
+Calculating probability of a catch of [4] balls out of [15] 'marked' numbers = 0.2502131827
+Calculating probability of a catch of [5] balls out of [15] 'marked' numbers = 0.1761500806
+Calculating probability of a catch of [6] balls out of [15] 'marked' numbers = 0.08634807875
+Calculating probability of a catch of [7] balls out of [15] 'marked' numbers = 0.02988971957
+Calculating probability of a catch of [8] balls out of [15] 'marked' numbers = 0.007331440648
+Calculating probability of a catch of [9] balls out of [15] 'marked' numbers = 0.001267162581
+Calculating probability of a catch of [10] balls out of [15] 'marked' numbers = 0.0001520595097
+Calculating probability of a catch of [11] balls out of [15] 'marked' numbers = 1.234249267e-05
+Calculating probability of a catch of [12] balls out of [15] 'marked' numbers = 6.496048776e-07
+Calculating probability of a catch of [13] balls out of [15] 'marked' numbers = 2.067707833e-08
+Calculating probability of a catch of [14] balls out of [15] 'marked' numbers = 3.504589548e-10
+Calculating probability of a catch of [15] balls out of [15] 'marked' numbers = 2.336393032e-12
+Calculating probability of a catch of [0] balls out of [16] 'marked' numbers = 0.005549638277
+Calculating probability of a catch of [1] balls out of [16] 'marked' numbers = 0.03946409441
+Calculating probability of a catch of [2] balls out of [16] 'marked' numbers = 0.1222529012
+Calculating probability of a catch of [3] balls out of [16] 'marked' numbers = 0.2184945468
+Calculating probability of a catch of [4] balls out of [16] 'marked' numbers = 0.2514963273
+Calculating probability of a catch of [5] balls out of [16] 'marked' numbers = 0.1970909993
+Calculating probability of a catch of [6] balls out of [16] 'marked' numbers = 0.1084000496
+Calculating probability of a catch of [7] balls out of [16] 'marked' numbers = 0.04250982338
+Calculating probability of a catch of [8] balls out of [16] 'marked' numbers = 0.01195588783
+Calculating probability of a catch of [9] balls out of [16] 'marked' numbers = 0.002406216418
+Calculating probability of a catch of [10] balls out of [16] 'marked' numbers = 0.0003431086374
+Calculating probability of a catch of [11] balls out of [16] 'marked' numbers = 3.402730288e-05
+Calculating probability of a catch of [12] balls out of [16] 'marked' numbers = 2.278614032e-06
+Calculating probability of a catch of [13] balls out of [16] 'marked' numbers = 9.84016856e-08
+Calculating probability of a catch of [14] balls out of [16] 'marked' numbers = 2.544871179e-09
+Calculating probability of a catch of [15] balls out of [16] 'marked' numbers = 3.450672785e-11
+Calculating probability of a catch of [16] balls out of [16] 'marked' numbers = 1.797225409e-13
+Calculating probability of a catch of [0] balls out of [17] 'marked' numbers = 0.003815376315
+Calculating probability of a catch of [1] balls out of [17] 'marked' numbers = 0.02948245334
+Calculating probability of a catch of [2] balls out of [17] 'marked' numbers = 0.09958517574
+Calculating probability of a catch of [3] balls out of [17] 'marked' numbers = 0.1948405612
+Calculating probability of a catch of [4] balls out of [17] 'marked' numbers = 0.2466598594
+Calculating probability of a catch of [5] balls out of [17] 'marked' numbers = 0.2137718782
+Calculating probability of a catch of [6] balls out of [17] 'marked' numbers = 0.1308807417
+Calculating probability of a catch of [7] balls out of [17] 'marked' numbers = 0.05758752637
+Calculating probability of a catch of [8] balls out of [17] 'marked' numbers = 0.01834896673
+Calculating probability of a catch of [9] balls out of [17] 'marked' numbers = 0.004234376939
+Calculating probability of a catch of [10] balls out of [17] 'marked' numbers = 0.0007030663596
+Calculating probability of a catch of [11] balls out of [17] 'marked' numbers = 8.2852938e-05
+Calculating probability of a catch of [12] balls out of [17] 'marked' numbers = 6.778876746e-06
+Calculating probability of a catch of [13] balls out of [17] 'marked' numbers = 3.724657553e-07
+Calculating probability of a catch of [14] balls out of [17] 'marked' numbers = 1.306897387e-08
+Calculating probability of a catch of [15] balls out of [17] 'marked' numbers = 2.703925628e-10
+Calculating probability of a catch of [16] balls out of [17] 'marked' numbers = 2.864327996e-12
+Calculating probability of a catch of [17] balls out of [17] 'marked' numbers = 1.123265881e-14
+Calculating probability of a catch of [0] balls out of [18] 'marked' numbers = 0.002604145739
+Calculating probability of a catch of [1] balls out of [18] 'marked' numbers = 0.02180215037
+Calculating probability of a catch of [2] balls out of [18] 'marked' numbers = 0.08002380193
+Calculating probability of a catch of [3] balls out of [18] 'marked' numbers = 0.1707174441
+Calculating probability of a catch of [4] balls out of [18] 'marked' numbers = 0.2365921101
+Calculating probability of a catch of [5] balls out of [18] 'marked' numbers = 0.2255175858
+Calculating probability of a catch of [6] balls out of [18] 'marked' numbers = 0.1526941987
+Calculating probability of a catch of [7] balls out of [18] 'marked' numbers = 0.07478899528
+Calculating probability of a catch of [8] balls out of [18] 'marked' numbers = 0.02673706581
+Calculating probability of a catch of [9] balls out of [18] 'marked' numbers = 0.006990082565
+Calculating probability of a catch of [10] balls out of [18] 'marked' numbers = 0.001330804181
+Calculating probability of a catch of [11] balls out of [18] 'marked' numbers = 0.0001826146389
+Calculating probability of a catch of [12] balls out of [18] 'marked' numbers = 1.7754201e-05
+Calculating probability of a catch of [13] balls out of [18] 'marked' numbers = 1.191890417e-06
+Calculating probability of a catch of [14] balls out of [18] 'marked' numbers = 5.320939361e-08
+Calculating probability of a catch of [15] balls out of [18] 'marked' numbers = 1.493597014e-09
+Calculating probability of a catch of [16] balls out of [18] 'marked' numbers = 2.414219311e-11
+Calculating probability of a catch of [17] balls out of [18] 'marked' numbers = 1.925598653e-13
+Calculating probability of a catch of [18] balls out of [18] 'marked' numbers = 5.348885146e-16
+Calculating probability of a catch of [0] balls out of [19] 'marked' numbers = 0.001764098726
+Calculating probability of a catch of [1] balls out of [19] 'marked' numbers = 0.01596089324
+Calculating probability of a catch of [2] balls out of [19] 'marked' numbers = 0.06347238939
+Calculating probability of a catch of [3] balls out of [19] 'marked' numbers = 0.147140539
+Calculating probability of a catch of [4] balls out of [19] 'marked' numbers = 0.2223457034
+Calculating probability of a catch of [5] balls out of [19] 'marked' numbers = 0.2320129079
+Calculating probability of a catch of [6] balls out of [19] 'marked' numbers = 0.1727755697
+Calculating probability of a catch of [7] balls out of [19] 'marked' numbers = 0.09358676694
+Calculating probability of a catch of [8] balls out of [19] 'marked' numbers = 0.03724371338
+Calculating probability of a catch of [9] balls out of [19] 'marked' numbers = 0.01092482259
+Calculating probability of a catch of [10] balls out of [19] 'marked' numbers = 0.002356334284
+Calculating probability of a catch of [11] balls out of [19] 'marked' numbers = 0.0003707518979
+Calculating probability of a catch of [12] balls out of [19] 'marked' numbers = 4.197191296e-05
+Calculating probability of a catch of [13] balls out of [19] 'marked' numbers = 3.348186789e-06
+Calculating probability of a catch of [14] balls out of [19] 'marked' numbers = 1.826283703e-07
+Calculating probability of a catch of [15] balls out of [19] 'marked' numbers = 6.522441797e-09
+Calculating probability of a catch of [16] balls out of [19] 'marked' numbers = 1.430360043e-10
+Calculating probability of a catch of [17] balls out of [19] 'marked' numbers = 1.740803298e-12
+Calculating probability of a catch of [18] balls out of [19] 'marked' numbers = 9.835046882e-15
+Calculating probability of a catch of [19] balls out of [19] 'marked' numbers = 1.725446821e-17
+Calculating probability of a catch of [0] balls out of [20] 'marked' numbers = 0.001185705701
+Calculating probability of a catch of [1] balls out of [20] 'marked' numbers = 0.0115678605
+Calculating probability of a catch of [2] balls out of [20] 'marked' numbers = 0.04971425763
+Calculating probability of a catch of [3] balls out of [20] 'marked' numbers = 0.1248637168
+Calculating probability of a catch of [4] balls out of [20] 'marked' numbers = 0.2050318987
+Calculating probability of a catch of [5] balls out of [20] 'marked' numbers = 0.233280738
+Calculating probability of a catch of [6] balls out of [20] 'marked' numbers = 0.1901745147
+Calculating probability of a catch of [7] balls out of [20] 'marked' numbers = 0.1132954556
+Calculating probability of a catch of [8] balls out of [20] 'marked' numbers = 0.04986180206
+Calculating probability of a catch of [9] balls out of [20] 'marked' numbers = 0.01628140475
+Calculating probability of a catch of [10] balls out of [20] 'marked' numbers = 0.003940099951
+Calculating probability of a catch of [11] balls out of [20] 'marked' numbers = 0.000702335107
+Calculating probability of a catch of [12] balls out of [20] 'marked' numbers = 9.116849947e-05
+Calculating probability of a catch of [13] balls out of [20] 'marked' numbers = 8.468481809e-06
+Calculating probability of a catch of [14] balls out of [20] 'marked' numbers = 5.488830802e-07
+Calculating probability of a catch of [15] balls out of [20] 'marked' numbers = 2.395126168e-08
+Calculating probability of a catch of [16] balls out of [20] 'marked' numbers = 6.68282971e-10
+Calculating probability of a catch of [17] balls out of [20] 'marked' numbers = 1.103460014e-11
+Calculating probability of a catch of [18] balls out of [20] 'marked' numbers = 9.512586328e-14
+Calculating probability of a catch of [19] balls out of [20] 'marked' numbers = 3.394321616e-16
+Calculating probability of a catch of [20] balls out of [20] 'marked' numbers = 2.828601346e-19
+Calculating Expected Value(s)
+---------------------------------------------
+KP(1,1) =0.25
+PO(1,1) =3
+Expected Value of [1] spots marked 0.375
+KP(2,2) =0.06012658228
+PO(2,2) =12
+Expected Value of [2] spots marked 0.2405063291
+KP(3,2) =0.1387536514
+PO(3,2) =1
+Expected Value of [3] spots marked 0.03468841285
+KP(3,3) =0.01387536514
+PO(3,3) =42
+Expected Value of [3] spots marked 0.1803797468
+KP(4,2) =0.2126354658
+PO(4,2) =1
+Expected Value of [4] spots marked 0.04252709316
+KP(4,3) =0.04324789135
+PO(4,3) =3
+Expected Value of [4] spots marked 0.06847582797
+KP(4,4) =0.003063392304
+PO(4,4) =120
+Expected Value of [4] spots marked 0.1419972433
+KP(5,3) =0.08393505229
+PO(5,3) =1
+Expected Value of [5] spots marked 0.01398917538
+KP(5,4) =0.01209233804
+PO(5,4) =9
+Expected Value of [5] spots marked 0.03212768244
+KP(5,5) =0.0006449246956
+PO(5,5) =800
+Expected Value of [5] spots marked 0.1181176419
+KP(6,3) =0.1298195475
+PO(6,3) =1
+Expected Value of [6] spots marked 0.01854564965
+KP(6,4) =0.02853791778
+PO(6,4) =4
+Expected Value of [6] spots marked 0.03485303124
+KP(6,5) =0.003095638539
+PO(6,5) =88
+Expected Value of [6] spots marked 0.07376963001
+KP(6,6) =0.0001289849391
+PO(6,6) =1500
+Expected Value of [6] spots marked 0.1014092598
+KP(7,4) =0.05219096675
+PO(7,4) =2
+Expected Value of [7] spots marked 0.01304774169
+KP(7,5) =0.008638504841
+PO(7,5) =20
+Expected Value of [7] spots marked 0.03464400379
+KP(7,6) =0.0007320766814
+PO(7,6) =350
+Expected Value of [7] spots marked 0.0666723586
+KP(7,7) =2.440255605e-05
+PO(7,7) =700
+Expected Value of [7] spots marked 0.06880758226
+KP(8,5) =0.0183025856
+PO(8,5) =9
+Expected Value of [8] spots marked 0.0183025856
+KP(8,6) =0.002366713655
+PO(8,6) =90
+Expected Value of [8] spots marked 0.04196972215
+KP(8,7) =0.0001604551631
+PO(8,7) =1500
+Expected Value of [8] spots marked 0.06871224933
+KP(8,8) =4.345660666e-06
+PO(8,8) =20000
+Expected Value of [8] spots marked 0.07836927303
+KP(9,5) =0.0326014806
+PO(9,5) =4
+Expected Value of [9] spots marked 0.01304059224
+KP(9,6) =0.005719558
+PO(9,6) =43
+Expected Value of [9] spots marked 0.03763469164
+KP(9,7) =0.0005916784138
+PO(9,7) =3000
+Expected Value of [9] spots marked 0.2151382158
+KP(9,8) =3.2592455e-05
+PO(9,8) =4000
+Expected Value of [9] spots marked 0.2281751978
+KP(9,9) =7.242767777e-07
+PO(9,9) =25000
+Expected Value of [9] spots marked 0.2299858897

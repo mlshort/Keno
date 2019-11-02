@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KenoProject", "KenoProject\KenoProject.vcxproj", "{B8AC1EAE-5FC0-4EB7-9D4C-661B25BD55D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A99668C-A3FF-4F54-9D92-AB7533B7F340}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{060ABFC8-3793-40B9-B14C-CB72BCA194D0}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Keno Simulation.pdf = Documentation\Keno Simulation.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{A091F08F-0E3C-4D7B-8BAE-A67FF92E2D1A}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Keno.xlsx = Data\Keno.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AC1EAE-5FC0-4EB7-9D4C-661B25BD55D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8AC1EAE-5FC0-4EB7-9D4C-661B25BD55D1}.Debug|Win32.Build.0 = Debug|Win32
+		{B8AC1EAE-5FC0-4EB7-9D4C-661B25BD55D1}.Release|Win32.ActiveCfg = Release|Win32
+		{B8AC1EAE-5FC0-4EB7-9D4C-661B25BD55D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8433B078-E2AB-4955-8296-92F6F8E869F3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ualr-projects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KenoProject\\KenoProject.vcxproj
+		SccProjectName1 = KenoProject
+		SccLocalPath1 = KenoProject
+	EndGlobalSection
+EndGlobal
