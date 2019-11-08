@@ -45,7 +45,7 @@ KenoProject Overview
 ===============================================================================
 
 * The program used combinatorics to calculate the payout probabilities.
-  - See https://en.wikipedia.org/wiki/Combination
+  - See [https://en.wikipedia.org/wiki/Combination](https://en.wikipedia.org/wiki/Combination)
 
 * It further used COM Automation to create an MS Excel Spreadsheet (from within a Native C++
   Console Application) as the final output file for the the calculated probability data.
