@@ -1,5 +1,5 @@
 
-NAME:     Keno Simulation
+# Keno Simulation
 
 DIRECTORY STRUCTURE:
 ======================================================================
